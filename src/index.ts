@@ -1,7 +1,8 @@
 import { parseHTML } from 'linkedom';
 import { Feed } from 'feed';
+import fs  from "fs"
 
-async function getShoes(size:number) {
+async function getShoes(size:number) : Promise<string>{
 	const api = `https://www.rivers.com.au/rivers-footwear-mens-footwear?prefn1=size&prefv1=${size}&srule=sorting-CategoryPosition-Rivers-First&start=0&sz=60`;
 	const response = await fetch(api);
 
@@ -12,7 +13,7 @@ async function getShoes(size:number) {
 	return await response.text();
 }
 
-function parsePage(html:string){
+function parsePage(html:string) : string[] {
 	const shoes = [];
 	const { document } = parseHTML(html);
 
@@ -50,11 +51,24 @@ function createFeed(pageJson) {
     return feed
 }
 
+function writeJsonToFile(inString:string[], outFile) {
+	fs.writeFile(outFile, JSON.stringify(inString), (err) => {
+		console.log("File written")
+	})
+}
+
+
+function compareToPrevious(params:type) {
+	
+}
+
 async function buildRss() {
-	const html = await getShoes(11);
-	const pageJson = parsePage(html);
+	const html : string = await getShoes(11);
+	const pageJson:string[] = parsePage(html);
+	writeJsonToFile(pageJson, "previous.json")
+	console.log(pageJson)
     const feed = createFeed(pageJson);
-    console.log(feed.rss2())
+    // console.log(feed.rss2())
 }
 
 buildRss()
