@@ -4,13 +4,15 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scrape": "ts-node src/index.ts"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "feed": "^4.2.2",
-    "linkedom": "^0.16.1"
+    "linkedom": "^0.16.1",
+    "ts-node": "^10.9.1"
   },
   "devDependencies": {
     "@types/node": "^20.8.9",

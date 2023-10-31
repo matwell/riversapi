@@ -1,6 +1,6 @@
 import { parseHTML } from "linkedom";
 import { Feed } from "feed";
-import fs from "fs";
+import * as fs from "fs";
 
 type Shoe = {
   id: string;
@@ -26,10 +26,10 @@ function parsePage(html: string): Shoe[] {
   const { document } = parseHTML(html);
 
   const rows = document.querySelectorAll<HTMLElement>(".product");
-  for (const row of rows) {
+  for (const row of Array.from(rows)) {
     shoes.push({
-      id: row.getAttribute("data-pid"),
-      name: row.querySelector<HTMLElement>(".pdp-link").innerText,
+      id: row.getAttribute("data-pid")!,
+      name: row.querySelector<HTMLElement>(".pdp-link")!.innerText,
       link:
         "https://www.rivers.com.au" +
         row.querySelector<HTMLElement>(".data-gtm")?.getAttribute("href"),
