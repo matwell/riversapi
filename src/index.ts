@@ -44,7 +44,7 @@ function parsePage(html: string): Shoe[] {
   return shoes;
 }
 
-function createFeed(pageJson) {
+function createFeed(pageJson: Shoe[]) {
   const feed = new Feed({
     title: "Rivers API",
     description: "Rivers promotions",
@@ -66,7 +66,7 @@ function createFeed(pageJson) {
   return feed;
 }
 
-function writeJsonToFile(inShoes: Shoe[], outFile) {
+function writeJsonToFile(inShoes: Shoe[], outFile: fs.PathOrFileDescriptor) {
   fs.writeFile(outFile, JSON.stringify(inShoes), (err) => {
     console.log("File written");
   });
