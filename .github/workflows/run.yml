@@ -15,3 +15,5 @@ jobs:
       - name: Scrape
         run: npm run scrape
       - uses: mikeal/publish-to-github-action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub sets this for you
