@@ -2,11 +2,12 @@
   "name": "riversapi",
   "version": "1.0.0",
   "description": "",
+  "type": "commonjs",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx tsc src/index.ts --skipLibCheck",
-    "scrape": "node src/index.ts"
+    "scrape": "node src/index.js"
   },
   "author": "",
   "license": "ISC",

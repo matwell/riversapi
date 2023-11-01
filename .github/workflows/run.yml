@@ -1,19 +1,17 @@
 on:
   schedule:
-    - cron:  '0 8 * * *' # every day at 8am
+    - cron: "0 8 * * *" # every day at 8am
 name: Pull Data and Build
 jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
-    - name: Build
-      run: npm install
-    - name: Scrape
-      run: npm run scrape 
-      # env:
-      #   WHATEVER_TOKEN: ${{ secrets.YOU_WANT }}
-    - uses: mikeal/publish-to-github-action@master
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub sets this for you
+      - uses: actions/checkout@master
+      - name: Install npm modules
+        run: npm install
+      - name: Build
+        run: npm run build
+      - name: Scrape
+        run: npm run scrape
+      - uses: mikeal/publish-to-github-action@master
