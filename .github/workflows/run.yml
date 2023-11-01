@@ -20,7 +20,7 @@ jobs:
         run: npm install
       - name: Build
         run: npm run build
-      - name: Scrape
+      - name: Scrape website
         run: npm run scrape
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4
