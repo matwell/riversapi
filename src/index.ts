@@ -76,13 +76,13 @@ function createFeed(pageJson: Shoe[]) {
 }
 
 function writeJsonToFile(inShoes: Shoe[], outFile: fs.PathOrFileDescriptor) {
-  fs.writeFile(outFile, JSON.stringify(inShoes), (err) => {
+  fs.writeFile(outFile, JSON.stringify(inShoes), () => {
     console.log(outFile, "File written");
   });
 }
 
 function writeFeedToFile(feed: string) {
-  fs.writeFile("rss.xml", feed, (err) => {
+  fs.writeFile("rss.xml", feed, () => {
     console.log("Feed written");
   });
 }
