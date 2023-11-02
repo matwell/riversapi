@@ -6,14 +6,15 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx tsc src/index.ts --skipLibCheck",
+    "build": "npx tsc src/index.ts",
     "scrape": "node src/index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/cheerio": "^0.22.33",
+    "cheerio": "^1.0.0-rc.12",
     "feed": "^4.2.2",
-    "linkedom": "^0.16.1",
     "ts-node": "^10.9.1"
   },
   "devDependencies": {

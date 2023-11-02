@@ -1,4 +1,5 @@
-import { parseHTML } from "linkedom";
+// import { parseHTML } from "linkedom";
+import * as cheerio from "cheerio";
 import { Feed } from "feed";
 import * as fs from "fs";
 
@@ -8,6 +9,7 @@ type Shoe = {
   link: string;
   price: number;
   originalPrice: number;
+  date: Date;
 };
 
 async function getShoes(size: number): Promise<string> {
@@ -23,24 +25,31 @@ async function getShoes(size: number): Promise<string> {
 
 function parsePage(html: string): Shoe[] {
   const shoes: Shoe[] = [];
-  const { document } = parseHTML(html);
-
-  const rows = document.querySelectorAll<HTMLElement>(".product");
-  for (const row of Array.from(rows)) {
+  const $ = cheerio.load(html);
+  const rows = $(".product");
+  rows.each((_, row) => {
+    const id: string = $(row).attr("data-pid")!;
+    const name: string = $(row)
+      .find(".pdp-link")
+      .text()
+      .replace(/[^a-zA-Z0-9 ]/g, "");
+    const link: string =
+      "https://www.rivers.com.au" + $(row).find(".data-gtm").attr("href");
+    const price: number = Number(
+      $(row).find(".sales > .value").attr("content")
+    );
+    const originalPrice: number = Number(
+      $(row).find(".strike-through > .value").attr("content")
+    );
     shoes.push({
-      id: row.getAttribute("data-pid")!,
-      name: row.querySelector<HTMLElement>(".pdp-link")!.innerText,
-      link:
-        "https://www.rivers.com.au" +
-        row.querySelector<HTMLElement>(".data-gtm")?.getAttribute("href"),
-      price: Number(
-        row.querySelector(".sales > .value")?.getAttribute("content")
-      ),
-      originalPrice: Number(
-        row.querySelector(".strike-through > .value")?.getAttribute("content")
-      ),
+      id: id,
+      name: name,
+      link: link,
+      price: price,
+      originalPrice: originalPrice,
+      date: new Date(),
     });
-  }
+  });
   return shoes;
 }
 
@@ -59,7 +68,7 @@ function createFeed(pageJson: Shoe[]) {
       title: shoe.name,
       link: shoe.link,
       description: `New deal Price:${shoe.price} Original:${shoe.originalPrice}`,
-      date: new Date(),
+      date: shoe.date,
     });
   });
 
@@ -68,7 +77,7 @@ function createFeed(pageJson: Shoe[]) {
 
 function writeJsonToFile(inShoes: Shoe[], outFile: fs.PathOrFileDescriptor) {
   fs.writeFile(outFile, JSON.stringify(inShoes), (err) => {
-    console.log("File written");
+    console.log(outFile, "File written");
   });
 }
 
@@ -112,15 +121,12 @@ async function buildRss() {
     writeJsonToFile(discountedShoes, "data/previous.json");
     writeJsonToFile(feedJSON, "data/forFeed.json");
     console.log("changed", changedObjects);
-    // console.log("feed", feedJSON)
 
     const feed = createFeed(feedJSON);
     writeFeedToFile(feed.rss2());
   } else {
     console.log("Nothing new");
   }
-
-  // console.log(feed.rss2())
 }
 
 buildRss();
