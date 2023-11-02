@@ -112,12 +112,12 @@ function createFeed(pageJson) {
     return feed;
 }
 function writeJsonToFile(inShoes, outFile) {
-    fs.writeFile(outFile, JSON.stringify(inShoes), function (err) {
+    fs.writeFile(outFile, JSON.stringify(inShoes), function () {
         console.log(outFile, "File written");
     });
 }
 function writeFeedToFile(feed) {
-    fs.writeFile("rss.xml", feed, function (err) {
+    fs.writeFile("rss.xml", feed, function () {
         console.log("Feed written");
     });
 }
