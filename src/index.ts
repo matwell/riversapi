@@ -10,6 +10,7 @@ type Shoe = {
   price: number;
   originalPrice: number;
   date: Date;
+  image: string;
 };
 
 async function getShoes(size: number): Promise<string> {
@@ -41,6 +42,9 @@ function parsePage(html: string): Shoe[] {
     const originalPrice: number = Number(
       $(row).find(".strike-through > .value").attr("content")
     );
+    const image: string =
+      $(row).find(".tile-image").attr("srcset")?.split(",")[0].split("?")[0] ||
+      "";
     shoes.push({
       id: id,
       name: name,
@@ -48,6 +52,7 @@ function parsePage(html: string): Shoe[] {
       price: price,
       originalPrice: originalPrice,
       date: new Date(),
+      image: image,
     });
   });
   return shoes;
@@ -69,6 +74,7 @@ function createFeed(pageJson: Shoe[]) {
       link: shoe.link,
       description: `New deal Price:${shoe.price} Original:${shoe.originalPrice}`,
       date: shoe.date,
+      image: shoe.image,
     });
   });
 
