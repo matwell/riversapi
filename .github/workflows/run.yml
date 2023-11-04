@@ -1,6 +1,6 @@
 on:
   schedule:
-    - cron: "*/60 * * * *" # every 30 mins
+    - cron: "*/360 * * * *" # every 30 mins
 name: Pull Data and Build
 jobs:
   build:
