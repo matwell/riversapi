@@ -73,6 +73,7 @@ function parsePage(html) {
     var $ = cheerio.load(html);
     var rows = $(".product");
     rows.each(function (_, row) {
+        var _a;
         var id = $(row).attr("data-pid");
         var name = $(row)
             .find(".pdp-link")
@@ -81,6 +82,8 @@ function parsePage(html) {
         var link = "https://www.rivers.com.au" + $(row).find(".data-gtm").attr("href");
         var price = Number($(row).find(".sales > .value").attr("content"));
         var originalPrice = Number($(row).find(".strike-through > .value").attr("content"));
+        var image = ((_a = $(row).find(".tile-image").attr("srcset")) === null || _a === void 0 ? void 0 : _a.split(",")[0].split("?")[0]) ||
+            "";
         shoes.push({
             id: id,
             name: name,
@@ -88,6 +91,7 @@ function parsePage(html) {
             price: price,
             originalPrice: originalPrice,
             date: new Date(),
+            image: image,
         });
     });
     return shoes;
@@ -107,6 +111,7 @@ function createFeed(pageJson) {
             link: shoe.link,
             description: "New deal Price:".concat(shoe.price, " Original:").concat(shoe.originalPrice),
             date: shoe.date,
+            image: shoe.image,
         });
     });
     return feed;
