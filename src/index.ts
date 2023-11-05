@@ -122,7 +122,7 @@ async function buildRss() {
   );
 
   if (changedObjects.length > 0) {
-    const forFeed = fs.readFileSync("data/forFeed.json", "utf8");
+    const forFeed = fs.readFileSync("data/forFeed.json", "utf8") || "[{}]";
     const feedJSON = appendToJSON(JSON.parse(forFeed), changedObjects);
     writeJsonToFile(discountedShoes, "data/previous.json");
     writeJsonToFile(feedJSON, "data/forFeed.json");
