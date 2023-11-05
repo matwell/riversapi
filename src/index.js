@@ -154,7 +154,7 @@ function buildRss() {
                     previousFile = fs.readFileSync("data/previous.json", "utf8");
                     changedObjects = compareToPrevious(JSON.parse(previousFile), discountedShoes);
                     if (changedObjects.length > 0) {
-                        forFeed = fs.readFileSync("data/forFeed.json", "utf8");
+                        forFeed = fs.readFileSync("data/forFeed.json", "utf8") || "[{}]";
                         feedJSON = appendToJSON(JSON.parse(forFeed), changedObjects);
                         writeJsonToFile(discountedShoes, "data/previous.json");
                         writeJsonToFile(feedJSON, "data/forFeed.json");
