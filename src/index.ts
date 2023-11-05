@@ -115,14 +115,14 @@ async function buildRss() {
   const html: string = await getShoes(11);
   const pageJson: Shoe[] = parsePage(html);
   const discountedShoes = filterToDiscounts(pageJson);
-  const previousFile = fs.readFileSync("data/previous.json", "utf8");
+  const previousFile = fs.readFileSync("data/previous.json", "utf8")
   const changedObjects = compareToPrevious(
     JSON.parse(previousFile),
     discountedShoes
   );
 
   if (changedObjects.length > 0) {
-    const forFeed = fs.readFileSync("data/forFeed.json", "utf8");
+    const forFeed = fs.readFileSync("data/forFeed.json", "utf8") || "[{}]";
     const feedJSON = appendToJSON(JSON.parse(forFeed), changedObjects);
     writeJsonToFile(discountedShoes, "data/previous.json");
     writeJsonToFile(feedJSON, "data/forFeed.json");
