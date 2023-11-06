@@ -1,0 +1,36 @@
+# This is a basic workflow that is manually triggered
+
+name: Manually build and run
+
+# Controls when the action will run. Workflow runs when manually triggered using the UI
+# or API.
+on:
+  workflow_dispatch:
+    # Inputs the workflow accepts.
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  build:
+    permissions:
+      # Give the default GITHUB_TOKEN write permission to commit and push the changed files back to the repository.
+      contents: write
+    name: Build and run
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "20"
+      - name: Install npm modules
+        run: npm install
+      - name: Build
+        run: npm run build
+      - name: Scrape website
+        run: npm run scrape
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Manually run build and scrape
+          branch: main
+
