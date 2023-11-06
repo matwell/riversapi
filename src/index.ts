@@ -1,4 +1,3 @@
-// import { parseHTML } from "linkedom";
 import * as cheerio from "cheerio";
 import { Feed } from "feed";
 import * as fs from "fs";
