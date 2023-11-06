@@ -127,7 +127,6 @@ async function buildRss() {
     writeJsonToFile(discountedShoes, "data/previous.json");
     writeJsonToFile(feedJSON, "data/forFeed.json");
     console.log("changed", changedObjects);
-    console.log("feed", feedJSON);
     const feed = createFeed(feedJSON);
     writeFeedToFile(feed.rss2());
   } else {
