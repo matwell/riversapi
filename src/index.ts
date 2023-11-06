@@ -73,7 +73,7 @@ function createFeed(pageJson: Shoe[]) {
       title: shoe.name,
       link: shoe.link,
       description: `New deal Price:${shoe.price} Original:${shoe.originalPrice}`,
-      date: shoe.date,
+      date: new Date(shoe.date),
       image: shoe.image,
     });
   });
@@ -115,7 +115,7 @@ async function buildRss() {
   const html: string = await getShoes(11);
   const pageJson: Shoe[] = parsePage(html);
   const discountedShoes = filterToDiscounts(pageJson);
-  const previousFile = fs.readFileSync("data/previous.json", "utf8")
+  const previousFile = fs.readFileSync("data/previous.json", "utf8") || "[{}]";
   const changedObjects = compareToPrevious(
     JSON.parse(previousFile),
     discountedShoes
@@ -127,7 +127,7 @@ async function buildRss() {
     writeJsonToFile(discountedShoes, "data/previous.json");
     writeJsonToFile(feedJSON, "data/forFeed.json");
     console.log("changed", changedObjects);
-
+    console.log("feed", feedJSON);
     const feed = createFeed(feedJSON);
     writeFeedToFile(feed.rss2());
   } else {
