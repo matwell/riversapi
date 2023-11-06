@@ -73,7 +73,7 @@ function createFeed(pageJson: Shoe[]) {
       title: shoe.name,
       link: shoe.link,
       description: `New deal Price:${shoe.price} Original:${shoe.originalPrice}`,
-      date: shoe.date,
+      date: new Date(shoe.date),
       image: shoe.image,
     });
   });
