@@ -1,6 +1,6 @@
-import * as cheerio from "cheerio";
-import { Feed } from "feed";
-import * as fs from "fs";
+import * as fs from 'node:fs';
+import * as cheerio from 'cheerio';
+import {Feed} from 'feed';
 
 type Shoe = {
   id: string;
@@ -20,38 +20,36 @@ async function getShoes(size: number): Promise<string> {
     throw new Error(`Failed to fetch: ${response.status}`);
   }
 
-  return await response.text();
+  return response.text();
 }
 
 function parsePage(html: string): Shoe[] {
   const shoes: Shoe[] = [];
   const $ = cheerio.load(html);
-  const rows = $(".product");
+  const rows = $('.product');
   rows.each((_, row) => {
-    const id: string = $(row).attr("data-pid")!;
+    const id: string = $(row).attr('data-pid')!;
     const name: string = $(row)
-      .find(".pdp-link")
+      .find('.pdp-link')
       .text()
-      .replace(/[^a-zA-Z0-9 ]/g, "");
+      .replace(/[^a-zA-Z\d ]/g, '');
     const link: string =
-      "https://www.rivers.com.au" + $(row).find(".data-gtm").attr("href");
-    const price: number = Number(
-      $(row).find(".sales > .value").attr("content")
-    );
-    const originalPrice: number = Number(
-      $(row).find(".strike-through > .value").attr("content")
+      'https://www.rivers.com.au' + $(row).find('.data-gtm').attr('href');
+    const price = Number($(row).find('.sales > .value').attr('content'));
+    const originalPrice = Number(
+      $(row).find('.strike-through > .value').attr('content')
     );
     const image: string =
-      $(row).find(".tile-image").attr("srcset")?.split(",")[0].split("?")[0] ||
-      "";
+      $(row).find('.tile-image').attr('srcset')?.split(',')[0].split('?')[0] ??
+      '';
     shoes.push({
-      id: id,
-      name: name,
-      link: link,
-      price: price,
-      originalPrice: originalPrice,
+      id,
+      name,
+      link,
+      price,
+      originalPrice,
       date: new Date(),
-      image: image,
+      image,
     });
   });
   return shoes;
@@ -59,15 +57,15 @@ function parsePage(html: string): Shoe[] {
 
 function createFeed(pageJson: Shoe[]) {
   const feed = new Feed({
-    title: "Rivers API",
-    description: "Rivers promotions",
-    link: "https://www.rivers.com.au",
+    title: 'Rivers API',
+    description: 'Rivers promotions',
+    link: 'https://www.rivers.com.au',
     updated: new Date(),
-    id: "",
-    copyright: "",
+    id: '',
+    copyright: '',
   });
 
-  pageJson.forEach((shoe) => {
+  for (const shoe of pageJson) {
     feed.addItem({
       title: shoe.name,
       link: shoe.link,
@@ -75,20 +73,20 @@ function createFeed(pageJson: Shoe[]) {
       date: new Date(shoe.date),
       image: shoe.image,
     });
-  });
+  }
 
   return feed;
 }
 
 function writeJsonToFile(inShoes: Shoe[], outFile: fs.PathOrFileDescriptor) {
   fs.writeFile(outFile, JSON.stringify(inShoes), () => {
-    console.log(outFile, "File written");
+    console.log(outFile, 'File written');
   });
 }
 
 function writeFeedToFile(feed: string) {
-  fs.writeFile("rss.xml", feed, () => {
-    console.log("Feed written");
+  fs.writeFile('rss.xml', feed, () => {
+    console.log('Feed written');
   });
 }
 
@@ -106,31 +104,35 @@ function filterToDiscounts(shoes: Shoe[]) {
   });
 }
 
-function appendToJSON(shoes: Shoe[], changes: Shoe[]): Shoe[] {
+function appendToJson(shoes: Shoe[], changes: Shoe[]): Shoe[] {
   return [...shoes, ...changes];
 }
 
-async function buildRss() {
+async function main() {
   const html: string = await getShoes(11);
   const pageJson: Shoe[] = parsePage(html);
   const discountedShoes = filterToDiscounts(pageJson);
-  const previousFile = fs.readFileSync("data/previous.json", "utf8") || "[{}]";
+  const previousFile: string =
+    fs.readFileSync('data/previous.json', 'utf8') || '[{}]';
   const changedObjects = compareToPrevious(
-    JSON.parse(previousFile),
+    JSON.parse(previousFile) as Shoe[],
     discountedShoes
   );
 
   if (changedObjects.length > 0) {
-    const forFeed = fs.readFileSync("data/forFeed.json", "utf8") || "[{}]";
-    const feedJSON = appendToJSON(JSON.parse(forFeed), changedObjects);
-    writeJsonToFile(discountedShoes, "data/previous.json");
-    writeJsonToFile(feedJSON, "data/forFeed.json");
-    console.log("changed", changedObjects);
-    const feed = createFeed(feedJSON);
+    const forFeed = fs.readFileSync('data/forFeed.json', 'utf8') || '[{}]';
+    const feedJson = appendToJson(
+      JSON.parse(forFeed) as Shoe[],
+      changedObjects
+    );
+    writeJsonToFile(discountedShoes, 'data/previous.json');
+    writeJsonToFile(feedJson, 'data/forFeed.json');
+    console.log('changed', changedObjects);
+    const feed = createFeed(feedJson);
     writeFeedToFile(feed.rss2());
   } else {
-    console.log("Nothing new");
+    console.log('Nothing new');
   }
 }
 
-buildRss();
+void main();
