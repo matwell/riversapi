@@ -110,7 +110,7 @@ function createFeed(pageJson) {
             title: shoe.name,
             link: shoe.link,
             description: "New deal Price:".concat(shoe.price, " Original:").concat(shoe.originalPrice),
-            date: shoe.date,
+            date: new Date(shoe.date),
             image: shoe.image,
         });
     });
