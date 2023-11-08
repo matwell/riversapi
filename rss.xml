@@ -4,7 +4,7 @@
         <title>Rivers API</title>
         <link>https://www.rivers.com.au</link>
         <description>Rivers promotions</description>
-        <lastBuildDate>Mon, 06 Nov 2023 22:35:08 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 08 Nov 2023 00:38:51 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
@@ -1826,6 +1826,62 @@
             <pubDate>Mon, 06 Nov 2023 22:35:08 GMT</pubDate>
             <description><![CDATA[New deal Price:15 Original:39.99]]></description>
             <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R118832_376_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[Rivers Bair Printed Thong]]></title>
+            <link>https://www.rivers.com.au/product/rivers-bair-printed-thong/R120161-239.html</link>
+            <guid>https://www.rivers.com.au/product/rivers-bair-printed-thong/R120161-239.html</guid>
+            <pubDate>Wed, 08 Nov 2023 00:38:51 GMT</pubDate>
+            <description><![CDATA[New deal Price:14.99 Original:29.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R120161_239_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[HERITAGE MOCC LEATHER SLIPON]]></title>
+            <link>https://www.rivers.com.au/product/heritage-mocc-leather-slipon/R119810-405.html</link>
+            <guid>https://www.rivers.com.au/product/heritage-mocc-leather-slipon/R119810-405.html</guid>
+            <pubDate>Wed, 08 Nov 2023 00:38:51 GMT</pubDate>
+            <description><![CDATA[New deal Price:54.99 Original:109.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R119810_405_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[RIVERS MOCCASIN LEATHER SLIPON]]></title>
+            <link>https://www.rivers.com.au/product/rivers-moccasin-leather-slipon/R119838-376.html</link>
+            <guid>https://www.rivers.com.au/product/rivers-moccasin-leather-slipon/R119838-376.html</guid>
+            <pubDate>Wed, 08 Nov 2023 00:38:51 GMT</pubDate>
+            <description><![CDATA[New deal Price:54.99 Original:109.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R119838_376_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[RIVERS MOCCASIN LEATHER SLIPON]]></title>
+            <link>https://www.rivers.com.au/product/rivers-moccasin-leather-slipon/R119838-381.html</link>
+            <guid>https://www.rivers.com.au/product/rivers-moccasin-leather-slipon/R119838-381.html</guid>
+            <pubDate>Wed, 08 Nov 2023 00:38:51 GMT</pubDate>
+            <description><![CDATA[New deal Price:54.99 Original:109.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R119838_381_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[HERITAGE MOCC LEATHER SLIPON]]></title>
+            <link>https://www.rivers.com.au/product/heritage-mocc-leather-slipon/R119810-381.html</link>
+            <guid>https://www.rivers.com.au/product/heritage-mocc-leather-slipon/R119810-381.html</guid>
+            <pubDate>Wed, 08 Nov 2023 00:38:51 GMT</pubDate>
+            <description><![CDATA[New deal Price:54.99 Original:109.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R119810_381_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[Rivers Trent Moccasin Slipper]]></title>
+            <link>https://www.rivers.com.au/product/rivers-trent-moccasin-slipper/R118815-381.html</link>
+            <guid>https://www.rivers.com.au/product/rivers-trent-moccasin-slipper/R118815-381.html</guid>
+            <pubDate>Wed, 08 Nov 2023 00:38:51 GMT</pubDate>
+            <description><![CDATA[New deal Price:15 Original:39.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R118815_381_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[Riversoft Mule]]></title>
+            <link>https://www.rivers.com.au/product/riversoft-mule/R111601-381.html</link>
+            <guid>https://www.rivers.com.au/product/riversoft-mule/R111601-381.html</guid>
+            <pubDate>Wed, 08 Nov 2023 00:38:51 GMT</pubDate>
+            <description><![CDATA[New deal Price:29.99 Original:59.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R111601_381_1.JPG" length="0" type="image/JPG"/>
         </item>
     </channel>
 </rss>
