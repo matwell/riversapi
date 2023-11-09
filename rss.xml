@@ -4,7 +4,7 @@
         <title>Rivers API</title>
         <link>https://www.rivers.com.au</link>
         <description>Rivers promotions</description>
-        <lastBuildDate>Thu, 09 Nov 2023 03:09:13 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 09 Nov 2023 06:11:17 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
@@ -2074,6 +2074,30 @@
             <pubDate>Thu, 09 Nov 2023 03:09:13 GMT</pubDate>
             <description><![CDATA[New deal Price:19.95 Original:109.99]]></description>
             <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R116942_7218_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[Rivers Brixton Chelsea Boot]]></title>
+            <link>https://www.rivers.com.au/product/rivers-brixton-chelsea-boot/R118885-376.html</link>
+            <guid>https://www.rivers.com.au/product/rivers-brixton-chelsea-boot/R118885-376.html</guid>
+            <pubDate>Thu, 09 Nov 2023 06:11:17 GMT</pubDate>
+            <description><![CDATA[New deal Price:44.99 Original:89.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R118885_376_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[Rivers Sports Thong]]></title>
+            <link>https://www.rivers.com.au/product/rivers-sports-thong/R111503-376.html</link>
+            <guid>https://www.rivers.com.au/product/rivers-sports-thong/R111503-376.html</guid>
+            <pubDate>Thu, 09 Nov 2023 06:11:17 GMT</pubDate>
+            <description><![CDATA[New deal Price:14.99 Original:29.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R111503_376_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[Riversoft Leather Adventure Sandal]]></title>
+            <link>https://www.rivers.com.au/product/riversoft-leather-adventure-sandal/R117815-381.html</link>
+            <guid>https://www.rivers.com.au/product/riversoft-leather-adventure-sandal/R117815-381.html</guid>
+            <pubDate>Thu, 09 Nov 2023 06:11:17 GMT</pubDate>
+            <description><![CDATA[New deal Price:52.49 Original:104.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R117815_381_1.JPG" length="0" type="image/JPG"/>
         </item>
     </channel>
 </rss>
