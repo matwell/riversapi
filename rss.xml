@@ -4,7 +4,7 @@
         <title>Rivers API</title>
         <link>https://www.rivers.com.au</link>
         <description>Rivers promotions</description>
-        <lastBuildDate>Wed, 08 Nov 2023 21:07:55 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 09 Nov 2023 03:09:13 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
@@ -2066,6 +2066,14 @@
             <pubDate>Wed, 08 Nov 2023 21:07:55 GMT</pubDate>
             <description><![CDATA[New deal Price:12 Original:39.99]]></description>
             <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R117193_967_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[Rivers Leather Boat Shoe]]></title>
+            <link>https://www.rivers.com.au/product/rivers-leather-boat-shoe/R116942-7218.html</link>
+            <guid>https://www.rivers.com.au/product/rivers-leather-boat-shoe/R116942-7218.html</guid>
+            <pubDate>Thu, 09 Nov 2023 03:09:13 GMT</pubDate>
+            <description><![CDATA[New deal Price:19.95 Original:109.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R116942_7218_1.JPG" length="0" type="image/JPG"/>
         </item>
     </channel>
 </rss>
