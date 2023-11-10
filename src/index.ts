@@ -1,6 +1,8 @@
-import * as fs from 'node:fs';
 import * as cheerio from 'cheerio';
 import {Feed} from 'feed';
+import {eq} from 'drizzle-orm';
+import {db} from './db/db.js';
+import * as schema from './db/schema.js';
 
 type Shoe = {
   id: string;
@@ -78,61 +80,44 @@ function createFeed(pageJson: Shoe[]) {
   return feed;
 }
 
-function writeJsonToFile(inShoes: Shoe[], outFile: fs.PathOrFileDescriptor) {
-  fs.writeFile(outFile, JSON.stringify(inShoes), () => {
-    console.log(outFile, 'File written');
-  });
-}
-
-function writeFeedToFile(feed: string) {
-  fs.writeFile('rss.xml', feed, () => {
-    console.log('Feed written');
-  });
-}
-
-function compareToPrevious(previous: Shoe[], current: Shoe[]) {
-  return current.filter((currentShoe: Shoe) => {
-    return !previous.some((previousShoe: Shoe) => {
-      return currentShoe.id === previousShoe.id;
-    });
-  });
-}
-
 function filterToDiscounts(shoes: Shoe[]) {
   return shoes.filter((shoe: Shoe) => {
     return shoe.price < shoe.originalPrice;
   });
 }
 
-function appendToJson(shoes: Shoe[], changes: Shoe[]): Shoe[] {
-  return [...shoes, ...changes];
+async function writeShoesToDb(inputShoes: Shoe[]) {
+  const promises = inputShoes.map(async (shoe) => {
+    const result = await db
+      .select()
+      .from(schema.shoes)
+      .where(eq(schema.shoes.id, shoe.id));
+    if (result.length === 0) {
+      await db.insert(schema.shoes).values(shoe);
+    } else if (shoe.price !== result[0].price) {
+      await db
+        .update(schema.shoes)
+        .set({...shoe, addToFeed: true})
+        .where(eq(schema.shoes.id, shoe.id));
+    }
+  });
+
+  await Promise.all(promises);
+}
+
+// Function to console.log all entries of shoes database
+async function logAll() {
+  const result = await db.select().from(schema.shoes);
+  console.log(result);
+  console.log('End');
 }
 
 async function main() {
   const html: string = await getShoes(11);
   const pageJson: Shoe[] = parsePage(html);
   const discountedShoes = filterToDiscounts(pageJson);
-  const previousFile: string =
-    fs.readFileSync('data/previous.json', 'utf8') || '[{}]';
-  const changedObjects = compareToPrevious(
-    JSON.parse(previousFile) as Shoe[],
-    discountedShoes
-  );
-
-  if (changedObjects.length > 0) {
-    const forFeed = fs.readFileSync('data/forFeed.json', 'utf8') || '[{}]';
-    const feedJson = appendToJson(
-      JSON.parse(forFeed) as Shoe[],
-      changedObjects
-    );
-    writeJsonToFile(discountedShoes, 'data/previous.json');
-    writeJsonToFile(feedJson, 'data/forFeed.json');
-    console.log('changed', changedObjects);
-    const feed = createFeed(feedJson);
-    writeFeedToFile(feed.rss2());
-  } else {
-    console.log('Nothing new');
-  }
+  await writeShoesToDb(discountedShoes);
+  await logAll();
 }
 
 void main();

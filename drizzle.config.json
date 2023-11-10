@@ -1,0 +1,5 @@
+{
+  "schema": "./src/db/schema.ts",
+  "driver": "better-sqlite",
+  "out": "./src/db/migrations"
+}

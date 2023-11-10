@@ -24,4 +24,4 @@ yarn-error.log*
 Thumbs.db
 
 rss.xml
-src/index.js
+eslint.backup

@@ -2,18 +2,23 @@
   "name": "riversapi",
   "version": "1.0.0",
   "description": "",
-  "type": "commonjs",
+  "type": "module",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx tsc src/index.ts",
-    "scrape": "node src/index.js"
+    "build": "npx tsc",
+    "scrape": "node dist/index.js",
+    "generate-migration": "drizzle-kit generate:sqlite",
+    "migrate": "npx ts-node src/db/migrate.ts"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/better-sqlite3": "^7.6.7",
     "@types/cheerio": "^0.22.34",
+    "better-sqlite3": "^9.1.0",
     "cheerio": "^1.0.0-rc.12",
+    "drizzle-orm": "^0.28.6",
     "feed": "^4.2.2",
     "ts-node": "^10.9.1"
   },
@@ -21,6 +26,7 @@
     "@types/node": "^20.9.0",
     "@typescript-eslint/eslint-plugin": "^6.10.0",
     "@typescript-eslint/parser": "^6.10.0",
+    "drizzle-kit": "^0.19.13",
     "eslint": "^8.53.0",
     "eslint-config-prettier": "^9.0.0",
     "prettier": "^3.0.3",

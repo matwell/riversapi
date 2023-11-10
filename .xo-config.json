@@ -3,6 +3,7 @@
   "prettier": true,
   "rules": {
     "unicorn/prefer-top-level-await": "off",
-    "unicorn/prefer-string-replace-all": "off"
+    "unicorn/prefer-string-replace-all": "off",
+    "n/file-extension-in-import": "off"
   }
 }
