@@ -4,7 +4,7 @@
         <title>Rivers API</title>
         <link>https://www.rivers.com.au</link>
         <description>Rivers promotions</description>
-        <lastBuildDate>Tue, 14 Nov 2023 00:39:13 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 14 Nov 2023 06:11:47 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
@@ -2546,6 +2546,46 @@
             <pubDate>Tue, 14 Nov 2023 00:39:13 GMT</pubDate>
             <description><![CDATA[New deal Price:34.95 Original:119.99]]></description>
             <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R117205_376_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[Rivers Leather Chelsea Boot]]></title>
+            <link>https://www.rivers.com.au/product/rivers-leather-chelsea-boot/R117795-381.html</link>
+            <guid>https://www.rivers.com.au/product/rivers-leather-chelsea-boot/R117795-381.html</guid>
+            <pubDate>Tue, 14 Nov 2023 06:11:46 GMT</pubDate>
+            <description><![CDATA[New deal Price:29 Original:124.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R117795_381_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[Rivers Blake Slip On Shoe]]></title>
+            <link>https://www.rivers.com.au/product/rivers-blake-slip-on-shoe/R118343-9398.html</link>
+            <guid>https://www.rivers.com.au/product/rivers-blake-slip-on-shoe/R118343-9398.html</guid>
+            <pubDate>Tue, 14 Nov 2023 06:11:46 GMT</pubDate>
+            <description><![CDATA[New deal Price:29 Original:74.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R118343_9398_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[RIVERS LO HIKER JUDE]]></title>
+            <link>https://www.rivers.com.au/product/rivers-lo-hiker-jude/R120156-376.html</link>
+            <guid>https://www.rivers.com.au/product/rivers-lo-hiker-jude/R120156-376.html</guid>
+            <pubDate>Tue, 14 Nov 2023 06:11:47 GMT</pubDate>
+            <description><![CDATA[New deal Price:44.99 Original:89.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R120156_376_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[RIVERSOFT LEATHER SANDAL]]></title>
+            <link>https://www.rivers.com.au/product/riversoft-leather-sandal/R119837-381.html</link>
+            <guid>https://www.rivers.com.au/product/riversoft-leather-sandal/R119837-381.html</guid>
+            <pubDate>Tue, 14 Nov 2023 06:11:47 GMT</pubDate>
+            <description><![CDATA[New deal Price:49.99 Original:99.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R119837_381_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[RIVERS NIRAJ RS LEATH SANDAL]]></title>
+            <link>https://www.rivers.com.au/product/rivers-niraj-rs-leath-sandal/R120129-381.html</link>
+            <guid>https://www.rivers.com.au/product/rivers-niraj-rs-leath-sandal/R120129-381.html</guid>
+            <pubDate>Tue, 14 Nov 2023 06:11:47 GMT</pubDate>
+            <description><![CDATA[New deal Price:44.99 Original:89.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R120129_381_1.JPG" length="0" type="image/JPG"/>
         </item>
     </channel>
 </rss>
