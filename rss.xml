@@ -4,7 +4,7 @@
         <title>Rivers API</title>
         <link>https://www.rivers.com.au</link>
         <description>Rivers promotions</description>
-        <lastBuildDate>Tue, 14 Nov 2023 09:08:39 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 15 Nov 2023 03:09:26 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
@@ -2594,6 +2594,30 @@
             <pubDate>Tue, 14 Nov 2023 09:08:39 GMT</pubDate>
             <description><![CDATA[New deal Price:12 Original:29.99]]></description>
             <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R117194_1314_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[Rivers Lo Hiker]]></title>
+            <link>https://www.rivers.com.au/product/rivers-lo-hiker/R117212-1505.html</link>
+            <guid>https://www.rivers.com.au/product/rivers-lo-hiker/R117212-1505.html</guid>
+            <pubDate>Wed, 15 Nov 2023 03:09:26 GMT</pubDate>
+            <description><![CDATA[New deal Price:29 Original:79.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R117212_1505_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[Rivers Barefoot Slip On Runner]]></title>
+            <link>https://www.rivers.com.au/product/rivers-barefoot-slip-on-runner/R117209-1676.html</link>
+            <guid>https://www.rivers.com.au/product/rivers-barefoot-slip-on-runner/R117209-1676.html</guid>
+            <pubDate>Wed, 15 Nov 2023 03:09:26 GMT</pubDate>
+            <description><![CDATA[New deal Price:24.99 Original:49.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R117209_1676_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[Rivers Low Cut LaceUp Hiker]]></title>
+            <link>https://www.rivers.com.au/product/rivers-low-cut-lace-up-hiker/R106193-739.html</link>
+            <guid>https://www.rivers.com.au/product/rivers-low-cut-lace-up-hiker/R106193-739.html</guid>
+            <pubDate>Wed, 15 Nov 2023 03:09:26 GMT</pubDate>
+            <description><![CDATA[New deal Price:39.99 Original:79.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R106193_739_1.JPG" length="0" type="image/JPG"/>
         </item>
     </channel>
 </rss>
