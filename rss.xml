@@ -4,7 +4,7 @@
         <title>Rivers API</title>
         <link>https://www.rivers.com.au</link>
         <description>Rivers promotions</description>
-        <lastBuildDate>Wed, 15 Nov 2023 15:09:31 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 16 Nov 2023 03:09:28 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
@@ -2634,6 +2634,22 @@
             <pubDate>Wed, 15 Nov 2023 15:09:31 GMT</pubDate>
             <description><![CDATA[New deal Price:24 Original:64.99]]></description>
             <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R118728_448_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[Rivers Flynn Leather Adventure Sandal]]></title>
+            <link>https://www.rivers.com.au/product/rivers-flynn-leather-adventure-sandal/R118348-405.html</link>
+            <guid>https://www.rivers.com.au/product/rivers-flynn-leather-adventure-sandal/R118348-405.html</guid>
+            <pubDate>Thu, 16 Nov 2023 03:09:28 GMT</pubDate>
+            <description><![CDATA[New deal Price:19.95 Original:89.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R118348_405_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[Rivers Caged Sandal]]></title>
+            <link>https://www.rivers.com.au/product/rivers-caged-sandal/R117802-376.html</link>
+            <guid>https://www.rivers.com.au/product/rivers-caged-sandal/R117802-376.html</guid>
+            <pubDate>Thu, 16 Nov 2023 03:09:28 GMT</pubDate>
+            <description><![CDATA[New deal Price:19.95 Original:64.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R117802_376_1.JPG" length="0" type="image/JPG"/>
         </item>
     </channel>
 </rss>
