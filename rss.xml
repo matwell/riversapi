@@ -4,7 +4,7 @@
         <title>Rivers API</title>
         <link>https://www.rivers.com.au</link>
         <description>Rivers promotions</description>
-        <lastBuildDate>Mon, 27 Nov 2023 00:40:58 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 29 Nov 2023 06:11:46 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
@@ -2818,6 +2818,30 @@
             <pubDate>Mon, 27 Nov 2023 00:40:58 GMT</pubDate>
             <description><![CDATA[New deal Price:19 Original:64.99]]></description>
             <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R118725_156_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[RIVERS ADVENTURE LEATHER SLIIDE]]></title>
+            <link>https://www.rivers.com.au/product/rivers-adventure-leather-sliide/R119816-381.html</link>
+            <guid>https://www.rivers.com.au/product/rivers-adventure-leather-sliide/R119816-381.html</guid>
+            <pubDate>Wed, 29 Nov 2023 06:11:46 GMT</pubDate>
+            <description><![CDATA[New deal Price:39.99 Original:79.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R119816_381_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[RIVERS SLIDE SANDAL NILO]]></title>
+            <link>https://www.rivers.com.au/product/rivers-slide-sandal-nilo/R120170-381.html</link>
+            <guid>https://www.rivers.com.au/product/rivers-slide-sandal-nilo/R120170-381.html</guid>
+            <pubDate>Wed, 29 Nov 2023 06:11:46 GMT</pubDate>
+            <description><![CDATA[New deal Price:39.99 Original:79.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R120170_381_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[RIVERS SLIDE SANDAL NILO]]></title>
+            <link>https://www.rivers.com.au/product/rivers-slide-sandal-nilo/R120170-376.html</link>
+            <guid>https://www.rivers.com.au/product/rivers-slide-sandal-nilo/R120170-376.html</guid>
+            <pubDate>Wed, 29 Nov 2023 06:11:46 GMT</pubDate>
+            <description><![CDATA[New deal Price:39.99 Original:79.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R120170_376_1.JPG" length="0" type="image/JPG"/>
         </item>
     </channel>
 </rss>
