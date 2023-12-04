@@ -4,7 +4,7 @@
         <title>Rivers API</title>
         <link>https://www.rivers.com.au</link>
         <description>Rivers promotions</description>
-        <lastBuildDate>Mon, 04 Dec 2023 03:09:50 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 04 Dec 2023 15:09:43 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
@@ -3002,6 +3002,14 @@
             <pubDate>Mon, 04 Dec 2023 03:09:50 GMT</pubDate>
             <description><![CDATA[New deal Price:12 Original:39.99]]></description>
             <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R117193_967_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[RIVERS NIRAJ RS LEATH SANDAL]]></title>
+            <link>https://www.rivers.com.au/product/rivers-niraj-rs-leath-sandal/R120129-381.html</link>
+            <guid>https://www.rivers.com.au/product/rivers-niraj-rs-leath-sandal/R120129-381.html</guid>
+            <pubDate>Mon, 04 Dec 2023 15:09:43 GMT</pubDate>
+            <description><![CDATA[New deal Price:25 Original:89.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R120129_381_1.JPG" length="0" type="image/JPG"/>
         </item>
     </channel>
 </rss>
