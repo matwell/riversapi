@@ -4,7 +4,7 @@
         <title>Rivers API</title>
         <link>https://www.rivers.com.au</link>
         <description>Rivers promotions</description>
-        <lastBuildDate>Mon, 04 Dec 2023 15:09:43 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 08 Dec 2023 00:41:05 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
@@ -3010,6 +3010,22 @@
             <pubDate>Mon, 04 Dec 2023 15:09:43 GMT</pubDate>
             <description><![CDATA[New deal Price:25 Original:89.99]]></description>
             <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R120129_381_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[Rivers Comfort Thong]]></title>
+            <link>https://www.rivers.com.au/product/rivers-comfort-thong/R118349-379.html</link>
+            <guid>https://www.rivers.com.au/product/rivers-comfort-thong/R118349-379.html</guid>
+            <pubDate>Fri, 08 Dec 2023 00:41:05 GMT</pubDate>
+            <description><![CDATA[New deal Price:19.99 Original:39.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R118349_379_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[Rivers Eddy Suede Lace Up]]></title>
+            <link>https://www.rivers.com.au/product/rivers-eddy-suede-lace-up/R117798-1404.html</link>
+            <guid>https://www.rivers.com.au/product/rivers-eddy-suede-lace-up/R117798-1404.html</guid>
+            <pubDate>Fri, 08 Dec 2023 00:41:05 GMT</pubDate>
+            <description><![CDATA[New deal Price:59.95 Original:124.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R117798_1404_1.JPG" length="0" type="image/JPG"/>
         </item>
     </channel>
 </rss>
