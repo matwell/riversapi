@@ -4,7 +4,7 @@
         <title>Rivers API</title>
         <link>https://www.rivers.com.au</link>
         <description>Rivers promotions</description>
-        <lastBuildDate>Fri, 08 Dec 2023 18:11:16 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 09 Dec 2023 15:07:56 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
@@ -3434,6 +3434,38 @@
             <pubDate>Fri, 08 Dec 2023 18:11:16 GMT</pubDate>
             <description><![CDATA[New deal Price:42.49 Original:84.99]]></description>
             <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R118429_381_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[Rivers Traus Moccasin Slipper Boot]]></title>
+            <link>https://www.rivers.com.au/product/rivers-traus-moccasin-slipper-boot/R118824-405.html</link>
+            <guid>https://www.rivers.com.au/product/rivers-traus-moccasin-slipper-boot/R118824-405.html</guid>
+            <pubDate>Sat, 09 Dec 2023 15:07:56 GMT</pubDate>
+            <description><![CDATA[New deal Price:19.99 Original:39.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R118824_405_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[Rivers Thomas Moccasin Slipper]]></title>
+            <link>https://www.rivers.com.au/product/rivers-thomas-moccasin-slipper/R118828-381.html</link>
+            <guid>https://www.rivers.com.au/product/rivers-thomas-moccasin-slipper/R118828-381.html</guid>
+            <pubDate>Sat, 09 Dec 2023 15:07:56 GMT</pubDate>
+            <description><![CDATA[New deal Price:19.99 Original:39.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R118828_381_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[Rivers Thomas Moccasin Slipper]]></title>
+            <link>https://www.rivers.com.au/product/rivers-thomas-moccasin-slipper/R118828-405.html</link>
+            <guid>https://www.rivers.com.au/product/rivers-thomas-moccasin-slipper/R118828-405.html</guid>
+            <pubDate>Sat, 09 Dec 2023 15:07:56 GMT</pubDate>
+            <description><![CDATA[New deal Price:19.99 Original:39.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R118828_405_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[Rivers Boto Leather Chelsea Boot]]></title>
+            <link>https://www.rivers.com.au/product/rivers-boto-leather-chelsea-boot/R119701-381.html</link>
+            <guid>https://www.rivers.com.au/product/rivers-boto-leather-chelsea-boot/R119701-381.html</guid>
+            <pubDate>Sat, 09 Dec 2023 15:07:56 GMT</pubDate>
+            <description><![CDATA[New deal Price:64.99 Original:129.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R119701_381_1.JPG" length="0" type="image/JPG"/>
         </item>
     </channel>
 </rss>
