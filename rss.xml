@@ -4,7 +4,7 @@
         <title>Rivers API</title>
         <link>https://www.rivers.com.au</link>
         <description>Rivers promotions</description>
-        <lastBuildDate>Tue, 12 Dec 2023 00:41:22 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 14 Dec 2023 00:40:15 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
@@ -3474,6 +3474,22 @@
             <pubDate>Tue, 12 Dec 2023 00:41:22 GMT</pubDate>
             <description><![CDATA[New deal Price:12 Original:39.99]]></description>
             <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R117193_1230_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[Rivers Sports Thong]]></title>
+            <link>https://www.rivers.com.au/product/rivers-sports-thong/R111503-376.html</link>
+            <guid>https://www.rivers.com.au/product/rivers-sports-thong/R111503-376.html</guid>
+            <pubDate>Thu, 14 Dec 2023 00:40:15 GMT</pubDate>
+            <description><![CDATA[New deal Price:15 Original:29.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R111503_376_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[Rivers Tommy Barefoot Slip On]]></title>
+            <link>https://www.rivers.com.au/product/rivers-tommy-barefoot-slip-on/R117784-376.html</link>
+            <guid>https://www.rivers.com.au/product/rivers-tommy-barefoot-slip-on/R117784-376.html</guid>
+            <pubDate>Thu, 14 Dec 2023 00:40:15 GMT</pubDate>
+            <description><![CDATA[New deal Price:24.95 Original:64.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R117784_376_1.JPG" length="0" type="image/JPG"/>
         </item>
     </channel>
 </rss>
