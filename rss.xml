@@ -4,7 +4,7 @@
         <title>Rivers API</title>
         <link>https://www.rivers.com.au</link>
         <description>Rivers promotions</description>
-        <lastBuildDate>Thu, 14 Dec 2023 00:40:15 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 14 Dec 2023 03:09:54 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
@@ -3490,6 +3490,62 @@
             <pubDate>Thu, 14 Dec 2023 00:40:15 GMT</pubDate>
             <description><![CDATA[New deal Price:24.95 Original:64.99]]></description>
             <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R117784_376_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[Rivers Classic Lace Up]]></title>
+            <link>https://www.rivers.com.au/product/rivers-classic-lace-up/R117789-379.html</link>
+            <guid>https://www.rivers.com.au/product/rivers-classic-lace-up/R117789-379.html</guid>
+            <pubDate>Thu, 14 Dec 2023 03:09:54 GMT</pubDate>
+            <description><![CDATA[New deal Price:24 Original:64.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R117789_379_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[Rivers Classic Open Knit Sneaker]]></title>
+            <link>https://www.rivers.com.au/product/rivers-classic-open-knit-sneaker/R116935-1050.html</link>
+            <guid>https://www.rivers.com.au/product/rivers-classic-open-knit-sneaker/R116935-1050.html</guid>
+            <pubDate>Thu, 14 Dec 2023 03:09:54 GMT</pubDate>
+            <description><![CDATA[New deal Price:24 Original:59.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R116935_1050_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[Rivers Classic Shagga]]></title>
+            <link>https://www.rivers.com.au/product/rivers-classic-shagga/R117335-379.html</link>
+            <guid>https://www.rivers.com.au/product/rivers-classic-shagga/R117335-379.html</guid>
+            <pubDate>Thu, 14 Dec 2023 03:09:54 GMT</pubDate>
+            <description><![CDATA[New deal Price:12 Original:29.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R117335_379_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[Rivers Barefoot Memory Foam Devin Faux Lace Up]]></title>
+            <link>https://www.rivers.com.au/product/rivers-barefoot-memory-foam-devin-faux-lace-up/R118719-376.html</link>
+            <guid>https://www.rivers.com.au/product/rivers-barefoot-memory-foam-devin-faux-lace-up/R118719-376.html</guid>
+            <pubDate>Thu, 14 Dec 2023 03:09:54 GMT</pubDate>
+            <description><![CDATA[New deal Price:24 Original:54.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R118719_376_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[Rivers Chevy Casual Lace Up Shoe]]></title>
+            <link>https://www.rivers.com.au/product/rivers-chevy-casual-lace-up-shoe/R118890-379.html</link>
+            <guid>https://www.rivers.com.au/product/rivers-chevy-casual-lace-up-shoe/R118890-379.html</guid>
+            <pubDate>Thu, 14 Dec 2023 03:09:54 GMT</pubDate>
+            <description><![CDATA[New deal Price:24 Original:69.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R118890_379_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[Rivers Philip Classic Lace Up]]></title>
+            <link>https://www.rivers.com.au/product/rivers-philip-classic-lace-up/R117790-1299.html</link>
+            <guid>https://www.rivers.com.au/product/rivers-philip-classic-lace-up/R117790-1299.html</guid>
+            <pubDate>Thu, 14 Dec 2023 03:09:54 GMT</pubDate>
+            <description><![CDATA[New deal Price:24 Original:64.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R117790_1299_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[Rivers LaceUp Hiker]]></title>
+            <link>https://www.rivers.com.au/product/rivers-lace-up-hiker/R6893MHIKE-803.html</link>
+            <guid>https://www.rivers.com.au/product/rivers-lace-up-hiker/R6893MHIKE-803.html</guid>
+            <pubDate>Thu, 14 Dec 2023 03:09:54 GMT</pubDate>
+            <description><![CDATA[New deal Price:24 Original:69.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R6893MHIKE_803_1.JPG" length="0" type="image/JPG"/>
         </item>
     </channel>
 </rss>
