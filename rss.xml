@@ -4,7 +4,7 @@
         <title>Rivers API</title>
         <link>https://www.rivers.com.au</link>
         <description>Rivers promotions</description>
-        <lastBuildDate>Thu, 14 Dec 2023 09:09:03 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 15 Dec 2023 00:41:26 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
@@ -3562,6 +3562,22 @@
             <pubDate>Thu, 14 Dec 2023 09:09:03 GMT</pubDate>
             <description><![CDATA[New deal Price:19.95 Original:49.99]]></description>
             <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R7325MATH_379_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[Rivers Classic Lace Up Runner]]></title>
+            <link>https://www.rivers.com.au/product/rivers-classic-lace-up-runner/R119012-379.html</link>
+            <guid>https://www.rivers.com.au/product/rivers-classic-lace-up-runner/R119012-379.html</guid>
+            <pubDate>Fri, 15 Dec 2023 00:41:26 GMT</pubDate>
+            <description><![CDATA[New deal Price:19.95 Original:59.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R119012_379_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[Riversoft Mule]]></title>
+            <link>https://www.rivers.com.au/product/riversoft-mule/R117801-376.html</link>
+            <guid>https://www.rivers.com.au/product/riversoft-mule/R117801-376.html</guid>
+            <pubDate>Fri, 15 Dec 2023 00:41:26 GMT</pubDate>
+            <description><![CDATA[New deal Price:19.95 Original:64.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R117801_376_1.JPG" length="0" type="image/JPG"/>
         </item>
     </channel>
 </rss>
