@@ -4,7 +4,7 @@
         <title>Rivers API</title>
         <link>https://www.rivers.com.au</link>
         <description>Rivers promotions</description>
-        <lastBuildDate>Sun, 17 Dec 2023 21:07:26 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 18 Dec 2023 00:41:42 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
@@ -3634,6 +3634,38 @@
             <pubDate>Sun, 17 Dec 2023 21:07:26 GMT</pubDate>
             <description><![CDATA[New deal Price:59.95 Original:119.99]]></description>
             <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R115358_1657_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[Rivers Brixton Chelsea Boot]]></title>
+            <link>https://www.rivers.com.au/product/rivers-brixton-chelsea-boot/R118885-376.html</link>
+            <guid>https://www.rivers.com.au/product/rivers-brixton-chelsea-boot/R118885-376.html</guid>
+            <pubDate>Mon, 18 Dec 2023 00:41:42 GMT</pubDate>
+            <description><![CDATA[New deal Price:44.99 Original:89.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R118885_376_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[Rivers Slip On Dress Shoe]]></title>
+            <link>https://www.rivers.com.au/product/rivers-slip-on-dress-shoe/R117445-376.html</link>
+            <guid>https://www.rivers.com.au/product/rivers-slip-on-dress-shoe/R117445-376.html</guid>
+            <pubDate>Mon, 18 Dec 2023 00:41:42 GMT</pubDate>
+            <description><![CDATA[New deal Price:29.95 Original:59.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R117445_376_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[Rivers Slip On Dress Shoe]]></title>
+            <link>https://www.rivers.com.au/product/rivers-slip-on-dress-shoe/R117811-376.html</link>
+            <guid>https://www.rivers.com.au/product/rivers-slip-on-dress-shoe/R117811-376.html</guid>
+            <pubDate>Mon, 18 Dec 2023 00:41:42 GMT</pubDate>
+            <description><![CDATA[New deal Price:32.49 Original:64.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R117811_376_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[Rivers Casual Sneaker]]></title>
+            <link>https://www.rivers.com.au/product/rivers-casual-sneaker/R117191-376.html</link>
+            <guid>https://www.rivers.com.au/product/rivers-casual-sneaker/R117191-376.html</guid>
+            <pubDate>Mon, 18 Dec 2023 00:41:42 GMT</pubDate>
+            <description><![CDATA[New deal Price:39.95 Original:99.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R117191_376_1.JPG" length="0" type="image/JPG"/>
         </item>
     </channel>
 </rss>
