@@ -4,7 +4,7 @@
         <title>Rivers API</title>
         <link>https://www.rivers.com.au</link>
         <description>Rivers promotions</description>
-        <lastBuildDate>Mon, 18 Dec 2023 00:41:42 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 19 Dec 2023 03:09:36 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
@@ -3666,6 +3666,38 @@
             <pubDate>Mon, 18 Dec 2023 00:41:42 GMT</pubDate>
             <description><![CDATA[New deal Price:39.95 Original:99.99]]></description>
             <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R117191_376_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[Rivers Classic Lace Up]]></title>
+            <link>https://www.rivers.com.au/product/rivers-classic-lace-up/R117432-1685.html</link>
+            <guid>https://www.rivers.com.au/product/rivers-classic-lace-up/R117432-1685.html</guid>
+            <pubDate>Tue, 19 Dec 2023 03:09:36 GMT</pubDate>
+            <description><![CDATA[New deal Price:29.95 Original:59.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R117432_1685_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[Rivers Squeeze Me Slide]]></title>
+            <link>https://www.rivers.com.au/product/rivers-squeeze-me-slide/R118413-376.html</link>
+            <guid>https://www.rivers.com.au/product/rivers-squeeze-me-slide/R118413-376.html</guid>
+            <pubDate>Tue, 19 Dec 2023 03:09:36 GMT</pubDate>
+            <description><![CDATA[New deal Price:15 Original:39.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R118413_376_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[Rivers Comfort Camo Thong]]></title>
+            <link>https://www.rivers.com.au/product/rivers-comfort-camo-thong/R116932-1923.html</link>
+            <guid>https://www.rivers.com.au/product/rivers-comfort-camo-thong/R116932-1923.html</guid>
+            <pubDate>Tue, 19 Dec 2023 03:09:36 GMT</pubDate>
+            <description><![CDATA[New deal Price:14.95 Original:39.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R116932_1923_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[Rivers Caged Sandal]]></title>
+            <link>https://www.rivers.com.au/product/rivers-caged-sandal/R117804-376.html</link>
+            <guid>https://www.rivers.com.au/product/rivers-caged-sandal/R117804-376.html</guid>
+            <pubDate>Tue, 19 Dec 2023 03:09:36 GMT</pubDate>
+            <description><![CDATA[New deal Price:19.95 Original:64.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R117804_376_1.JPG" length="0" type="image/JPG"/>
         </item>
     </channel>
 </rss>
