@@ -4,7 +4,7 @@
         <title>Rivers API</title>
         <link>https://www.rivers.com.au</link>
         <description>Rivers promotions</description>
-        <lastBuildDate>Wed, 20 Dec 2023 03:07:58 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 20 Dec 2023 06:09:54 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
@@ -3770,6 +3770,30 @@
             <pubDate>Wed, 20 Dec 2023 03:07:58 GMT</pubDate>
             <description><![CDATA[New deal Price:14.95 Original:34.99]]></description>
             <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R118333_379_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[Rivers Moccassin Slipper]]></title>
+            <link>https://www.rivers.com.au/product/rivers-moccassin-slipper/R117220-878.html</link>
+            <guid>https://www.rivers.com.au/product/rivers-moccassin-slipper/R117220-878.html</guid>
+            <pubDate>Wed, 20 Dec 2023 06:09:54 GMT</pubDate>
+            <description><![CDATA[New deal Price:24.99 Original:49.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R117220_878_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[Rivers Classic Lace Up]]></title>
+            <link>https://www.rivers.com.au/product/rivers-classic-lace-up/R117781-156.html</link>
+            <guid>https://www.rivers.com.au/product/rivers-classic-lace-up/R117781-156.html</guid>
+            <pubDate>Wed, 20 Dec 2023 06:09:54 GMT</pubDate>
+            <description><![CDATA[New deal Price:24.95 Original:64.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R117781_156_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[Rivers Slipper Mule]]></title>
+            <link>https://www.rivers.com.au/product/rivers-slipper-mule/R117194-1676.html</link>
+            <guid>https://www.rivers.com.au/product/rivers-slipper-mule/R117194-1676.html</guid>
+            <pubDate>Wed, 20 Dec 2023 06:09:54 GMT</pubDate>
+            <description><![CDATA[New deal Price:12 Original:29.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R117194_1676_1.JPG" length="0" type="image/JPG"/>
         </item>
     </channel>
 </rss>
