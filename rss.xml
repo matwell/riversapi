@@ -4,7 +4,7 @@
         <title>Rivers API</title>
         <link>https://www.rivers.com.au</link>
         <description>Rivers promotions</description>
-        <lastBuildDate>Tue, 19 Dec 2023 15:09:07 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 20 Dec 2023 00:33:20 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
@@ -3746,6 +3746,22 @@
             <pubDate>Tue, 19 Dec 2023 15:09:07 GMT</pubDate>
             <description><![CDATA[New deal Price:39.99 Original:79.99]]></description>
             <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R118863_376_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[Rivers Comfort Sandal]]></title>
+            <link>https://www.rivers.com.au/product/rivers-comfort-sandal/R118416-878.html</link>
+            <guid>https://www.rivers.com.au/product/rivers-comfort-sandal/R118416-878.html</guid>
+            <pubDate>Wed, 20 Dec 2023 00:33:20 GMT</pubDate>
+            <description><![CDATA[New deal Price:29.99 Original:59.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R118416_878_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[Rivers Shagga Slipper Boots]]></title>
+            <link>https://www.rivers.com.au/product/rivers-shagga-slipper-boots/R117193-967.html</link>
+            <guid>https://www.rivers.com.au/product/rivers-shagga-slipper-boots/R117193-967.html</guid>
+            <pubDate>Wed, 20 Dec 2023 00:33:20 GMT</pubDate>
+            <description><![CDATA[New deal Price:12 Original:39.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R117193_967_1.JPG" length="0" type="image/JPG"/>
         </item>
     </channel>
 </rss>
