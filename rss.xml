@@ -4,7 +4,7 @@
         <title>Rivers API</title>
         <link>https://www.rivers.com.au</link>
         <description>Rivers promotions</description>
-        <lastBuildDate>Wed, 20 Dec 2023 15:07:50 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 21 Dec 2023 00:40:05 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
@@ -3922,6 +3922,22 @@
             <pubDate>Wed, 20 Dec 2023 15:07:50 GMT</pubDate>
             <description><![CDATA[New deal Price:19.99 Original:59.99]]></description>
             <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R111473_1025_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[Rivers Rafael Casual Slip On]]></title>
+            <link>https://www.rivers.com.au/product/rivers-rafael-casual-slip-on/R118442-523.html</link>
+            <guid>https://www.rivers.com.au/product/rivers-rafael-casual-slip-on/R118442-523.html</guid>
+            <pubDate>Thu, 21 Dec 2023 00:40:05 GMT</pubDate>
+            <description><![CDATA[New deal Price:24.95 Original:74.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R118442_523_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[Rivers Supersoft Vented Slide]]></title>
+            <link>https://www.rivers.com.au/product/rivers-supersoft-vented-slide/R117799-2716.html</link>
+            <guid>https://www.rivers.com.au/product/rivers-supersoft-vented-slide/R117799-2716.html</guid>
+            <pubDate>Thu, 21 Dec 2023 00:40:05 GMT</pubDate>
+            <description><![CDATA[New deal Price:11.99 Original:24.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R117799_2716_1.JPG" length="0" type="image/JPG"/>
         </item>
     </channel>
 </rss>
