@@ -4,7 +4,7 @@
         <title>Rivers API</title>
         <link>https://www.rivers.com.au</link>
         <description>Rivers promotions</description>
-        <lastBuildDate>Thu, 21 Dec 2023 00:40:05 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 21 Dec 2023 03:09:35 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
@@ -3938,6 +3938,14 @@
             <pubDate>Thu, 21 Dec 2023 00:40:05 GMT</pubDate>
             <description><![CDATA[New deal Price:11.99 Original:24.99]]></description>
             <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R117799_2716_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[Rivers Clay Wide Fit Slip On]]></title>
+            <link>https://www.rivers.com.au/product/rivers-clay-wide-fit-slip-on/R118742-415.html</link>
+            <guid>https://www.rivers.com.au/product/rivers-clay-wide-fit-slip-on/R118742-415.html</guid>
+            <pubDate>Thu, 21 Dec 2023 03:09:35 GMT</pubDate>
+            <description><![CDATA[New deal Price:24.99 Original:69.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R118742_415_1.JPG" length="0" type="image/JPG"/>
         </item>
     </channel>
 </rss>
