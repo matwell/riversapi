@@ -4,7 +4,7 @@
         <title>Rivers API</title>
         <link>https://www.rivers.com.au</link>
         <description>Rivers promotions</description>
-        <lastBuildDate>Thu, 21 Dec 2023 03:09:35 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 21 Dec 2023 06:11:42 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
@@ -3946,6 +3946,30 @@
             <pubDate>Thu, 21 Dec 2023 03:09:35 GMT</pubDate>
             <description><![CDATA[New deal Price:24.99 Original:69.99]]></description>
             <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R118742_415_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[Rivers Adventure Sandal]]></title>
+            <link>https://www.rivers.com.au/product/rivers-adventure-sandal/R111950-803.html</link>
+            <guid>https://www.rivers.com.au/product/rivers-adventure-sandal/R111950-803.html</guid>
+            <pubDate>Thu, 21 Dec 2023 06:11:42 GMT</pubDate>
+            <description><![CDATA[New deal Price:19.99 Original:64.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R111950_803_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[Riversoft Thong]]></title>
+            <link>https://www.rivers.com.au/product/riversoft-thong/R117824-405.html</link>
+            <guid>https://www.rivers.com.au/product/riversoft-thong/R117824-405.html</guid>
+            <pubDate>Thu, 21 Dec 2023 06:11:42 GMT</pubDate>
+            <description><![CDATA[New deal Price:14.99 Original:44.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R117824_405_1.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[Rivers Moccassin Slipper]]></title>
+            <link>https://www.rivers.com.au/product/rivers-moccassin-slipper/R117220-416.html</link>
+            <guid>https://www.rivers.com.au/product/rivers-moccassin-slipper/R117220-416.html</guid>
+            <pubDate>Thu, 21 Dec 2023 06:11:42 GMT</pubDate>
+            <description><![CDATA[New deal Price:17.99 Original:49.99]]></description>
+            <enclosure url="https://omnichannelimages.global.ssl.fastly.net/prod/rivers/R117220_416_1.JPG" length="0" type="image/JPG"/>
         </item>
     </channel>
 </rss>
