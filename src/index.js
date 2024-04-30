@@ -48,10 +48,10 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // import { parseHTML } from "linkedom";
 var cheerio = require("cheerio");
 var feed_1 = require("feed");
-var fs = require("fs");
-function getShoes(size) {
+var fs = require("node:fs");
+function getShoesHTML(size) {
     return __awaiter(this, void 0, void 0, function () {
-        var api, response;
+        var api, response, html;
         return __generator(this, function (_a) {
             switch (_a.label) {
                 case 0:
@@ -63,7 +63,9 @@ function getShoes(size) {
                         throw new Error("Failed to fetch: ".concat(response.status));
                     }
                     return [4 /*yield*/, response.text()];
-                case 2: return [2 /*return*/, _a.sent()];
+                case 2:
+                    html = _a.sent();
+                    return [2 /*return*/, html];
             }
         });
     });
@@ -72,27 +74,36 @@ function parsePage(html) {
     var shoes = [];
     var $ = cheerio.load(html);
     var rows = $(".product");
+    //Only continue if some rows are found
+    if (rows.length === 0) {
+        throw new Error("No rows containing .product found");
+    }
     rows.each(function (_, row) {
         var _a;
         var id = $(row).attr("data-pid");
-        var name = $(row)
-            .find(".pdp-link")
-            .text()
-            .replace(/[^a-zA-Z0-9 ]/g, "");
-        var link = "https://www.rivers.com.au" + $(row).find(".data-gtm").attr("href");
-        var price = Number($(row).find(".sales > .value").attr("content"));
-        var originalPrice = Number($(row).find(".strike-through > .value").attr("content"));
-        var image = ((_a = $(row).find(".tile-image").attr("srcset")) === null || _a === void 0 ? void 0 : _a.split(",")[0].split("?")[0]) ||
-            "";
-        shoes.push({
-            id: id,
-            name: name,
-            link: link,
-            price: price,
-            originalPrice: originalPrice,
-            date: new Date(),
-            image: image,
-        });
+        if (id) {
+            var name_1 = $(row)
+                .find(".pdp-link")
+                .text()
+                .replace(/[^a-zA-Z0-9 ]/g, "");
+            var link = "https://www.rivers.com.au/".concat($(row)
+                .find(".data-gtm")
+                .attr("href"));
+            var price = Number($(row).find(".sales > .value").attr("content"));
+            var originalPrice = Number($(row).find(".strike-through > .value").attr("content"));
+            var image = ((_a = $(row)
+                .find(".tile-image")
+                .attr("srcset")) === null || _a === void 0 ? void 0 : _a.split(",")[0].split("?")[0]) || "";
+            shoes.push({
+                id: id,
+                name: name_1,
+                link: link,
+                price: price,
+                originalPrice: originalPrice,
+                date: new Date(),
+                image: image,
+            });
+        }
     });
     return shoes;
 }
@@ -105,7 +116,8 @@ function createFeed(pageJson) {
         id: "",
         copyright: "",
     });
-    pageJson.forEach(function (shoe) {
+    for (var _i = 0, pageJson_1 = pageJson; _i < pageJson_1.length; _i++) {
+        var shoe = pageJson_1[_i];
         feed.addItem({
             title: shoe.name,
             link: shoe.link,
@@ -113,7 +125,7 @@ function createFeed(pageJson) {
             date: new Date(shoe.date),
             image: shoe.image,
         });
-    });
+    }
     return feed;
 }
 function writeJsonToFile(inShoes, outFile) {
@@ -146,11 +158,13 @@ function buildRss() {
         var html, pageJson, discountedShoes, previousFile, changedObjects, forFeed, feedJSON, feed;
         return __generator(this, function (_a) {
             switch (_a.label) {
-                case 0: return [4 /*yield*/, getShoes(11)];
+                case 0: return [4 /*yield*/, getShoesHTML(10)];
                 case 1:
                     html = _a.sent();
                     pageJson = parsePage(html);
+                    console.log(pageJson);
                     discountedShoes = filterToDiscounts(pageJson);
+                    console.log(discountedShoes);
                     previousFile = fs.readFileSync("data/previous.json", "utf8");
                     changedObjects = compareToPrevious(JSON.parse(previousFile), discountedShoes);
                     if (changedObjects.length > 0) {
